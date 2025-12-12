@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420">
+  <defs>
+    <style>
+      .line{ fill:none; stroke:#000; stroke-width:2; stroke-linecap:round; stroke-linejoin:round }
+      .thin{ stroke-width:1.2 }
+      .dot{ fill:#000 }
+      .label{ font-family: Arial, sans-serif; font-size:16px; fill:#000 }
+      .hl{ stroke:#000; stroke-width:1.2; stroke-dasharray:4 4; opacity:0.6 }
+    </style>
+  </defs>
+
+  <rect x="8" y="8" width="884" height="404" rx="10" fill="none" stroke="#000" stroke-width="0.6"/>
+
+  <g transform="translate(250,210)">
+    <circle cx="0" cy="0" r="18" class="line"/>
+    <circle cx="0" cy="0" r="3" class="dot"/>
+    <text x="-6" y="-30" class="label">+q</text>
+  </g>
+
+  <g transform="translate(650,210)">
+    <circle cx="0" cy="0" r="18" class="line"/>
+    <circle cx="0" cy="0" r="3" class="dot"/>
+    <text x="-6" y="-30" class="label">+q</text>
+  </g>
+
+  <g transform="translate(450,210)">
+    <line x1="-12" y1="-20" x2="12" y2="20" class="hl"/>
+    <line x1="-12" y1="20" x2="12" y2="-20" class="hl"/>
+    <text x="-40" y="-28" class="label">Midpoint</text>
+  </g>
+
+  <path d="M268,170 C340,120 500,100 600,120" class="thin"/>
+  <path d="M268,150 C320,100 500,80 600,100" class="thin"/>
+  <path d="M268,130 C300,90 480,70 600,86" class="thin"/>
+
+  <path d="M268,250 C340,300 500,320 600,300" class="thin"/>
+  <path d="M268,270 C320,320 500,340 600,324" class="thin"/>
+  <path d="M268,290 C300,330 480,350 600,334" class="thin"/>
+
+  <path d="M286,210 L320,210" class="line"/>
+  <path d="M314,198 L340,180" class="line"/>
+  <path d="M314,222 L340,240" class="line"/>
+
+  <path d="M614,210 L580,210" class="line"/>
+  <path d="M586,198 L560,180" class="line"/>
+  <path d="M586,222 L560,240" class="line"/>
+
+  <polygon points="542,126 548,118 536,116" fill="#000"/>
+  <polygon points="542,296 536,304 548,306" fill="#000"/>
+</svg>
